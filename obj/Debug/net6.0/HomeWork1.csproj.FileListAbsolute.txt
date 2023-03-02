@@ -1,0 +1,15 @@
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\bin\Debug\net6.0\HomeWork1.exe
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\bin\Debug\net6.0\HomeWork1.deps.json
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\bin\Debug\net6.0\HomeWork1.runtimeconfig.json
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\bin\Debug\net6.0\HomeWork1.dll
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\bin\Debug\net6.0\HomeWork1.pdb
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.csproj.AssemblyReference.cache
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.AssemblyInfoInputs.cache
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.AssemblyInfo.cs
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.csproj.CoreCompileInputs.cache
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.dll
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\refint\HomeWork1.dll
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.pdb
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\HomeWork1.genruntimeconfig.cache
+C:\Users\ADVICE\Documents\GitHub\HomeWork1\obj\Debug\net6.0\ref\HomeWork1.dll
