@@ -5,25 +5,35 @@ namespace Homework1{
     {
         static void Main(string[] args){
             Console.Write("Password : "); int password = int.Parse(Console.ReadLine());
-            Console.Write("Agency : "); string agency = (Console.ReadLine());
+            int check = 0;
+            while(check < 1){
+          if(password >1000000 || password < 99999){
+            Console.Write("Password : "); password = int.Parse(Console.ReadLine());
+          }else{check++;}
+           }
+            if(check==1){
+              Console.Write("Agency : "); string agency = (Console.ReadLine());
 
+            //CIA
             float ciadigit = password % 10;
             float ciatenno = password % 100; int ciaten = (int)ciatenno / 10;  
             float ciathousandsno = password % 10000; int ciathousands = (int)ciathousandsno / 1000;
             // Console.WriteLine("{0} {1} {2}",ciathousands,ciaten,ciadigit);
-
+            
+            //FBI
             int fbihundredthousands = password / 100000;
             int fbihundredno = password % 1000; int fbihundred = fbihundredno /100;
             int fbitenthousandsno = password / 10000 ; int fbitenthousands = fbitenthousandsno % 10; 
             // Console.WriteLine("{0} {1} {2}",fbihundredthousands,fbitenthousands,fbihundred);
 
+            //NSA
             float nsadigit = password % 10; 
             float nsahundredsno = password % 1000;int nsahundreds = (int)nsahundredsno /100; 
             float nsatenno = password % 100; int nsaten = (int)nsatenno / 10;
             float nsathousandsno = password % 10000; int nsathousands = (int)nsathousandsno / 1000;
             int nsatenthousandsno = password / 10000 ; int nsatenthousands = nsatenthousandsno % 10;
             int nsahundredthousands = password / 100000;
-            Console.WriteLine("{0} {1} {2} {3} {4} {5}",nsahundredthousands,nsatenthousands,nsathousands,nsahundreds,nsaten,nsadigit);
+            // Console.WriteLine("{0} {1} {2} {3} {4} {5}",nsahundredthousands,nsatenthousands,nsathousands,nsahundreds,nsaten,nsadigit);
 
             
             if(agency == "CIA"){
@@ -51,7 +61,12 @@ namespace Homework1{
                     }else{
                         Console.WriteLine("False");
                     }
+            }if(agency != "FBI" && agency != "CIA"&& agency != "NSA"){
+                Console.WriteLine("False");
             }
+
          }
+
        }
     }
+}
