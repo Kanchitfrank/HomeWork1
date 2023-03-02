@@ -10,12 +10,21 @@ namespace Homework1{
             float ciadigit = password % 10;
             float ciatenno = password % 100; int ciaten = (int)ciatenno / 10;  
             float ciathousandsno = password % 10000; int ciathousands = (int)ciathousandsno / 1000;
-            // Console.WriteLine("{0} {1} {2}",ciadigit, ciaten, ciathousands);
+            // Console.WriteLine("{0} {1} {2}",ciathousands,ciaten,ciadigit);
 
             int fbihundredthousands = password / 100000;
             int fbihundredno = password % 1000; int fbihundred = fbihundredno /100;
             int fbitenthousandsno = password / 10000 ; int fbitenthousands = fbitenthousandsno % 10; 
-            Console.WriteLine("{0} {1} {2}",fbihundred, fbitenthousands, fbihundredthousands);
+            // Console.WriteLine("{0} {1} {2}",fbihundredthousands,fbitenthousands,fbihundred);
+
+            float nsadigit = password % 10; 
+            float nsahundredsno = password % 1000;int nsahundreds = (int)nsahundredsno /100; 
+            float nsatenno = password % 100; int nsaten = (int)nsatenno / 10;
+            float nsathousandsno = password % 10000; int nsathousands = (int)nsathousandsno / 1000;
+            int nsatenthousandsno = password / 10000 ; int nsatenthousands = nsatenthousandsno % 10;
+            int nsahundredthousands = password / 100000;
+            Console.WriteLine("{0} {1} {2} {3} {4} {5}",nsahundredthousands,nsatenthousands,nsathousands,nsahundreds,nsaten,nsadigit);
+
             
             if(agency == "CIA"){
                if(ciadigit % 3 == 0 
@@ -33,7 +42,16 @@ namespace Homework1{
                 }else{
                     Console.WriteLine("False");
                 }
-                     }
+            }if(agency == "NSA"){
+                 if(30 % nsadigit  == 0 && nsahundreds % 3 == 0 && nsahundreds % 2 != 0 ){
+                    if(nsahundredthousands == 7|| nsatenthousands == 7 || nsathousands == 7 
+                        || nsahundreds == 7 ||nsaten == 7 || nsadigit == 7  ){
+                            Console.WriteLine("True");
+                        }
+                    }else{
+                        Console.WriteLine("False");
+                    }
             }
-        }
+         }
+       }
     }
